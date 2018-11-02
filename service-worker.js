@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mooh8989.github.io/contactmanager/precache-manifest.cd45e8ffae19a55825802c9c9b69f261.js"
+  "/mooh8989.github.io/precache-manifest.718af552c4d2f4b25c30391102aa7fa2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/mooh8989.github.io/contactmanager/index.html", {
+workbox.routing.registerNavigationRoute("/mooh8989.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
